@@ -1,0 +1,68 @@
+# User configuration file
+
+# DATABASE
+#
+# if the db host, port, user, password are different for different parts of the DB then replace DB_HOST, DB_PORT, etc individually
+# otherwise define DB_HOST, DB_PORT, etc in the next section (at line 51)
+
+DBLIMS_HOST	=	DB_HOST
+DBLIMS_PORT	=       DB_PORT
+DBLIMS_DB	=	solexa
+DBLIMS_USER	=	DB_USER
+DBLIMS_PASSWORD	=	DB_PASSWORD
+	
+DBCORE_HOST	=	DB_HOST
+DBCORE_PORT	=	DB_PORT
+DBCORE_DB	=	exomehg19
+DBCORE_USER	=	DB_USER
+DBCORE_PASSWORD	=	DB_PASSWORD
+
+DBMULTISAMPLE_HOST	= DB_HOST
+DBMULTISAMPLE_PORT	= DB_PORT
+DBMULTISAMPLE_DB	= multisample
+DBMULTISAMPLE_USER	= DB_USER
+DBMULTISAMPLE_PASSWORD	= DB_PASSWORD
+
+DBVARIATION_HOST	= DB_HOST
+DBVARIATION_PORT	= DB_PORT
+DBVARIATION_DB		= hg19
+DBVARIATION_USER	= DB_USER
+DBVARIATION_PASSWORD	= DB_USER
+
+DBEXOME_HOST	= DB_HOST
+DBEXOME_PORT	= DB_PORT
+DBEXOME_DB	= exomevcf
+DBEXOME_USER	= DB_USER
+DBXOME_PASSWORD	= DB_PASSWORD
+
+DBRNA_HOST	= DB_HOST
+DBRNA_PORT	= DB_PORT
+DBRNA_USER	= DB_USER
+DBRNA_PASSWORD	= DB_PASSWORD
+DBRNA_DB	= rnahg19
+
+# If the host is the same specify at the END ovverride values
+# Use always capital names which are not used in the template config xml
+# eg:
+# DBEXOME_HOST = MYSQL_HOST
+# DBRNA_HOST= MYSQL_HOST
+# # ..at the end:
+# MYSQL_HOST = 192.168.1.30
+DB_HOST	= 
+DB_PORT = 
+DB_USER = 
+DB_PASSWORD=
+
+
+#PATHS
+# TMP (should go on host filesystem)
+TMPFOLDER		= 
+DEEPVARIANT_DATASETS	= 
+REFERENCEDATA		= 
+ANALYSIS = ANALYSIS
+RUNFOLDER =
+
+
+# TODO: TO DO! :)
+TODO = TODO 
+
